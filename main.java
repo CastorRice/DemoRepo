@@ -4,9 +4,11 @@ public class main {
 
     Student a = new Student("Peter Parker", 21);
     Student b = new Student("Walter White", 55);
+    Student d = new Student("Peter Parker", 21);
     Student c = a;
     System.out.println(a.equals(b));
     System.out.println(a.equals(c));
+    System.out.println(a.equals(d));
   }
 
   static class Student{
